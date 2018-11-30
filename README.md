@@ -1,9 +1,8 @@
 # praktikum7
 # latihan1 # Menukar Angka Dari 2 Variabel
 	~Alur Algoritmanya
-	-Mendeklarasikan int a sebagai Angka input.
-	-Mendeklarasikan int b sebagai Angka input.
-	-Mendeklarasikan Variabel a & b sebagai angka masukan
+	-Membuat fungsi tukar
+	-Mendeklarasikan Variabel a & b sebagai integer
 	-Masukan Angka a & b
 	-Menukar Angka a & b dengan 2 buah Variabel
 			  int a,b;
@@ -50,7 +49,7 @@
 
 # Latihan2 # Fungsi Perkalian 2 buah Bilangan
 	~Alur Algoritmanya
-	-Mendeklarasikan int M , int N
+	-Membuat fungsi kali
 		int kali (int m, int n)
 	{
 		int i,hasil=0;
