@@ -120,7 +120,7 @@
 # Soal Variabel Global
 
 	~Alur Algoritmanya
-	-Mendeklarasikan int total
+	-Mendeklarasikan variabel global
 	-Masukan Angka total 6,3
 		int total;
 		void hitung (){
@@ -160,8 +160,7 @@
 # Soal Variabel Local
 
 	~Alur Algoritmanya
-	-Mendeklarasikan int total lain
-	-Mendeklarasikan int total main
+	-Mendeklarasikan variabel local
 	-Masukan variabel yang akan di inputkan
 		int total =2;
 		total *=3;
@@ -201,7 +200,7 @@
 
 # Soal Variabel Static
 	~Alur Algoritmanya
-	-Mendeklarasikan int static total = 0
+	-Mendeklarasikan variabel static
 		int total = 0;
 		total++;
 	-Cetak nilai	cout<< "Nilai Total = "<< total<<endl;
