@@ -118,3 +118,126 @@
 ![img](https://github.com/zahira12/praktikum7/blob/master/latihan2/Screenshot2.png)
 
 
+# Soal Variabel Global
+
+	~Alur Algoritmanya
+	-Mendeklarasikan int total
+	-Masukan Angka total 6,3
+		int total;
+		void hitung (){
+		total*= 6;
+	}
+	int main()
+	{
+		total=3;
+		total++;
+		hitung();
+	-Cetak hasilnya cout << total << endl;
+		return 0;
+	}
+
+~ Berikut Kode Lengkapnya
+
+	#include <iostream>
+
+	using namespace std;
+	int total;
+	void hitung (){
+	total*= 6;
+	}
+	int main()
+	{
+		total=3;
+		total++;
+		hitung();
+		cout << total << endl;
+		return 0;
+	}
+
+~ Berikut Hasil Screenshotnya
+
+![img](https://github.com/zahira12/praktikum7/blob/master/SoalVariabelGlobal/Screenshot1.png)
+
+# Soal Variabel Local
+
+	~Alur Algoritmanya
+	-Mendeklarasikan int total lain
+	-Mendeklarasikan int total main
+	-Masukan variabel yang akan di inputkan
+		int total =2;
+		total *=3;
+	-Cetak total lain 	cout<< "total pada lain() ="<<total<<endl;
+	}
+	int main()
+	{
+		int total =2;
+		total++;
+		hitung();
+	-Cetak total main 	cout << "total pada main()=" <<total<< endl;
+				return 0;
+			}
+
+~ Berikut Kode Lengkapnya
+
+	#include <iostream>
+
+	using namespace std;
+	void hitung(){
+		int total =2;
+		total *=3;
+		cout<< "total pada lain() ="<<total<<endl;
+	}
+	int main()
+	{
+		int total =2;
+		total++;
+		hitung();
+		cout << "total pada main()=" <<total<< endl;
+		return 0;
+	}
+
+~ Berikut Hasil Screenshotnya
+
+![img](https://github.com/zahira12/praktikum7/blob/master/SoalVariabelLocal/Screenshot%201.png)
+
+# Soal Variabel Static
+	~Alur Algoritmanya
+	-Mendeklarasikan int static total = 0
+		int total = 0;
+		total++;
+	-Cetak nilai	cout<< "Nilai Total = "<< total<<endl;
+		}
+	-Masukan Variabel yang akan di inputkan 
+	}
+	int main()
+	{
+		hitung();
+		hitung();
+		hitung();
+		hitung();
+	return 0;
+	}
+
+~ Berikut Kode Lengkapnya
+
+	#include <iostream>
+
+	using namespace std;
+	void hitung()
+	{
+		static int total = 0;
+		total++;
+		cout<< "Nilai Total = "<< total<<endl;
+	}
+	int main()
+	{
+		hitung();
+		hitung();
+		hitung();
+		hitung();
+	return 0;
+	}
+
+~ Berikut Hasil Screenshotnya
+
+![img](https://github.com/zahira12/praktikum7/blob/master/SoalVariabelStatic/Screenshot%201.png)
